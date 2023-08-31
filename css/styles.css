@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --color-blue: #222374;
+    --color-gray: #CCCCCC;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-nav {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-h1 {
+    color: var(--color-white);
+}
+
+.contacts {
+    color: var(--color-white);
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.meet-our-space {
+    background-color: var(--color-blue);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.container-meet-our-space {
+    width: 80vw;
+    height: 418px;
+}
+
+.container-spaces-h2 {
+    color: var(--color-white);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.container-space {
+    background-color: var(--color-gray);
+    height: 127px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.container-spaces-h3 {
+    color: var(--color-black);
+    height: 27px;
+    margin-top: 15px;
+}
+
+.container-spaces-p {
+    color: var(--color-black);
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.our-modalities {
+    background-color: var(--color-white);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.container-our-modalities {
+    width: 80vw;
+    height: 880px;
+}
+
+.container-modalities-h2 {
+    color: var(--color-red);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.container-modality {
+    background-color: var(--color-blue);
+    height: 106px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.container-modality-h3 {
+    color: var(--color-white);
+    height: 27px;
+    margin-top: 15px;
+}
+
+.container-modality-p {
+    color: var(--color-gray);
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.box-contact {
+    height: 80px;
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-adress {
+    font-size: 14px;
+    text-align: center;
+}
